@@ -20,7 +20,7 @@ export const preorderTraversal = (root) => {
     return result;
 };
 
-export const preorderTraversalWithoutRecursion = (root) => {
+export const preorderTraversalIteration = (root) => {
     const result = [];
     const stack = [];
 
@@ -48,7 +48,7 @@ export const inorderTraversal = (root) => {
     return result;
 };
 
-export const inorderTraversalWithoutRecursion = (root) => {
+export const inorderTraversalIteration = (root) => {
     const result = [];
     const stack = [];
     let curNode = root;
@@ -78,7 +78,7 @@ export const postorderTraversal = (root) => {
     return result;
 };
 
-export const postorderTraversalWithoutRecursion = (root) => {
+export const postorderTraversalIteration = (root) => {
     const result = [];
     const stack = [];
 

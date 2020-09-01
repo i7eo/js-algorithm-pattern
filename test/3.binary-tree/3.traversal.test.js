@@ -1,10 +1,10 @@
 import {
     preorderTraversal,
-    preorderTraversalWithoutRecursion,
+    preorderTraversalIteration,
     inorderTraversal,
-    inorderTraversalWithoutRecursion,
+    inorderTraversalIteration,
     postorderTraversal,
-    postorderTraversalWithoutRecursion
+    postorderTraversalIteration
 } from '../../3.binary-tree/basic/3.traversal.js'
 
 const treeRoot1 = {
@@ -86,26 +86,26 @@ test('preorderTraversal:tree1', () => {
 //     expect(postorderTraversal(treeRoot2)).toEqual([1, 3, 2, 5, 4])
 // })
 
-// test('preorderTraversalWithoutRecursion:tree1', () => {
-//     expect(preorderTraversalWithoutRecursion(treeRoot1)).toEqual([1, 3, 2, 5, 4])
+// test('preorderTraversalIteration:tree1', () => {
+//     expect(preorderTraversalIteration(treeRoot1)).toEqual([1, 3, 2, 5, 4])
 // })
 
-// test('preorderTraversalWithoutRecursion:tree2', () => {
-//     expect(preorderTraversalWithoutRecursion(treeRoot2)).toEqual([1, 3, 2, 5, 4])
+// test('preorderTraversalIteration:tree2', () => {
+//     expect(preorderTraversalIteration(treeRoot2)).toEqual([1, 3, 2, 5, 4])
 // })
 
-// test('inorderTraversalWithoutRecursion:tree1', () => {
-//     expect(inorderTraversalWithoutRecursion(treeRoot1)).toEqual([1, 3, 2, 5, 4])
+// test('inorderTraversalIteration:tree1', () => {
+//     expect(inorderTraversalIteration(treeRoot1)).toEqual([1, 3, 2, 5, 4])
 // })
 
-// test('inorderTraversalWithoutRecursion:tree2', () => {
-//     expect(inorderTraversalWithoutRecursion(treeRoot2)).toEqual([1, 3, 2, 5, 4])
+// test('inorderTraversalIteration:tree2', () => {
+//     expect(inorderTraversalIteration(treeRoot2)).toEqual([1, 3, 2, 5, 4])
 // })
 
-// test('postorderTraversalWithoutRecursion:tree1', () => {
-//     expect(postorderTraversalWithoutRecursion(treeRoot1)).toEqual([1, 3, 2, 5, 4])
+// test('postorderTraversalIteration:tree1', () => {
+//     expect(postorderTraversalIteration(treeRoot1)).toEqual([1, 3, 2, 5, 4])
 // })
 
-// test('postorderTraversalWithoutRecursion:tree2', () => {
-//     expect(postorderTraversalWithoutRecursion(treeRoot2)).toEqual([1, 3, 2, 5, 4])
+// test('postorderTraversalIteration:tree2', () => {
+//     expect(postorderTraversalIteration(treeRoot2)).toEqual([1, 3, 2, 5, 4])
 // })
